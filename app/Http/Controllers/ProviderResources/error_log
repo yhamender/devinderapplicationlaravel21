@@ -1,0 +1,6 @@
+[04-Aug-2020 06:28:21 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/ProviderResources/TripController.php on line 27
+[04-Aug-2020 11:36:53 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/ProviderResources/ProfileController.php on line 22
+[04-Aug-2020 12:48:33 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/ProviderResources/DocumentController.php on line 13
+[09-Aug-2020 03:46:01 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/ProviderResources/TripController.php on line 27
+[09-Aug-2020 03:46:12 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/ProviderResources/ProfileController.php on line 22
+[09-Aug-2020 03:47:38 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/ProviderResources/DocumentController.php on line 13

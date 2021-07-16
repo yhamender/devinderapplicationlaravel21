@@ -1,0 +1,210 @@
+[30-Oct-2018 14:04:43 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:04:46 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:04:49 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:04:52 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:04:55 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:04:58 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:05:01 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:05:04 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[30-Oct-2018 14:05:07 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/pxv5fa8dflvk/public_html/omninosTaxi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 478
+[22-Jul-2020 16:37:37 UTC] PHP Warning:  require(/home/qs5ya8i5srll/public_html/app/config/services.php): failed to open stream: No such file or directory in /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php on line 60
+[22-Jul-2020 16:37:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/qs5ya8i5srll/public_html/app/config/services.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php on line 60
+[22-Jul-2020 20:23:49 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:23:52 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:24:00 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:24:03 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:24:23 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:25:12 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:25:15 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:26:27 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:26:28 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:26:28 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:26:29 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:26:30 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:26:53 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:26:58 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:27:16 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:31:29 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[22-Jul-2020 20:31:30 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php:228
+Stack trace:
+#0 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(97): Dotenv\Loader->sanitiseVariableValue('debug', '> env('APP_DEBU...')
+#1 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(330): Dotenv\Loader->normaliseEnvironmentVariable('debug', '> env('APP_DEBU...')
+#2 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php(58): Dotenv\Loader->setEnvironmentVariable(''debug' => env(...')
+#3 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#4 /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#5 /home/qs5ya8i5srll/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php(24): Dotenv\Dotenv->load()
+#6 /home/q in /home/qs5ya8i5srll/public_html/app/vendor/vlucas/phpdotenv/src/Loader.php on line 228
+[11-Aug-2020 05:46:13 Asia/Kolkata] PHP Fatal error:  Call to a member function delete() on null in /home/vji0ctji5ksm/public_html/app/Http/Controllers/Resource/ProviderResource.php on line 180
+[31-Aug-2020 14:50:32 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/vji0ctji5ksm/public_html/storage/framework/views/c32e46ecfd99e896e5d5bb301b10238b596ac5c7.php on line 121
+[31-Aug-2020 14:51:23 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/vji0ctji5ksm/public_html/storage/framework/views/c32e46ecfd99e896e5d5bb301b10238b596ac5c7.php on line 121
+[31-Aug-2020 14:52:01 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/vji0ctji5ksm/public_html/storage/framework/views/c32e46ecfd99e896e5d5bb301b10238b596ac5c7.php on line 122
+[14-Jul-2021 18:03:23 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'allowed_methods' (T_STRING), expecting ']' in /home/vji0ctji5ksm/public_html/application/config/cors.php:30
+Stack trace:
+#0 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#1 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#2 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#3 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php( in /home/vji0ctji5ksm/public_html/application/config/cors.php on line 30
+[14-Jul-2021 18:03:27 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'allowed_methods' (T_STRING), expecting ']' in /home/vji0ctji5ksm/public_html/application/config/cors.php:30
+Stack trace:
+#0 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#1 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#2 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#3 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php( in /home/vji0ctji5ksm/public_html/application/config/cors.php on line 30
+[14-Jul-2021 18:03:49 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'allowed_methods' (T_STRING), expecting ']' in /home/vji0ctji5ksm/public_html/application/config/cors.php:30
+Stack trace:
+#0 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#1 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#2 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#3 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php( in /home/vji0ctji5ksm/public_html/application/config/cors.php on line 30
+[14-Jul-2021 18:03:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'allowed_methods' (T_STRING), expecting ']' in /home/vji0ctji5ksm/public_html/application/config/cors.php:30
+Stack trace:
+#0 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#1 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#2 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#3 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php( in /home/vji0ctji5ksm/public_html/application/config/cors.php on line 30
+[14-Jul-2021 18:03:52 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'allowed_methods' (T_STRING), expecting ']' in /home/vji0ctji5ksm/public_html/application/config/cors.php:30
+Stack trace:
+#0 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#1 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#2 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#3 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php( in /home/vji0ctji5ksm/public_html/application/config/cors.php on line 30
+[14-Jul-2021 18:04:27 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'allowed_methods' (T_STRING), expecting ']' in /home/vji0ctji5ksm/public_html/application/config/cors.php:30
+Stack trace:
+#0 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#1 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#2 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#3 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php( in /home/vji0ctji5ksm/public_html/application/config/cors.php on line 30
+[14-Jul-2021 18:04:30 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'allowed_methods' (T_STRING), expecting ']' in /home/vji0ctji5ksm/public_html/application/config/cors.php:30
+Stack trace:
+#0 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#1 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#2 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#3 /home/vji0ctji5ksm/public_html/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php( in /home/vji0ctji5ksm/public_html/application/config/cors.php on line 30

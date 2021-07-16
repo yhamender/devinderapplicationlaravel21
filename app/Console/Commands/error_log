@@ -1,0 +1,2 @@
+[02-Aug-2020 00:49:09 UTC] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/vji0ctji5ksm/public_html/app/Console/Commands/CustomCommand.php on line 11
+[02-Aug-2020 21:17:19 UTC] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/vji0ctji5ksm/public_html/app/Console/Commands/CustomCommand.php on line 11

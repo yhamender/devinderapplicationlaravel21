@@ -1,0 +1,8 @@
+[03-Aug-2020 17:10:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/LoginController.php on line 11
+[03-Aug-2020 21:41:27 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/RegisterController.php on line 12
+[04-Aug-2020 10:22:25 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/ResetPasswordController.php on line 12
+[04-Aug-2020 15:20:39 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/ForgotPasswordController.php on line 10
+[07-Aug-2020 21:17:52 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/ResetPasswordController.php on line 12
+[07-Aug-2020 21:19:04 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/LoginController.php on line 11
+[07-Aug-2020 21:20:19 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/RegisterController.php on line 12
+[07-Aug-2020 21:21:23 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/FleetAuth/ForgotPasswordController.php on line 10

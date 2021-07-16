@@ -1,0 +1,9 @@
+[03-Aug-2020 02:23:52 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/LoginController.php on line 11
+[03-Aug-2020 02:27:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/RegisterController.php on line 12
+[04-Aug-2020 14:30:29 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/ResetPasswordController.php on line 12
+[04-Aug-2020 16:42:21 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/ForgotPasswordController.php on line 10
+[04-Aug-2020 17:00:35 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/ForgotPasswordController.php on line 10
+[07-Aug-2020 18:12:35 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/RegisterController.php on line 12
+[07-Aug-2020 18:16:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/LoginController.php on line 11
+[09-Aug-2020 03:36:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/ResetPasswordController.php on line 12
+[09-Aug-2020 03:44:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/vji0ctji5ksm/public_html/app/Http/Controllers/AdminAuth/ForgotPasswordController.php on line 10
